@@ -28,4 +28,6 @@ int main() {
     input();
     std::map<FunType, Input<typename F, typename...Args>> fun_map;
     std::cout << std::get<0>(input._values) << '\n';
+
+    return 0;
 }
